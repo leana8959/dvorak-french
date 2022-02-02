@@ -4,6 +4,8 @@ Dvorak-French (abbreviated as DvFr) is a custom made keyboard layout, based on d
 
 DvFr uses the exact same alphabetical layout, but switches out the number row in favor for accents used in the French language.
 
+This layout is generated using [ukelele](https://software.sil.org/ukelele/) from SIL.
+
 Main functionalities are:
 
 -   `•` symbol for inclusive writing in French.
@@ -11,7 +13,7 @@ Main functionalities are:
 -   Access to numbers using `caps lock`.
 -   Access to capital accent letters using `option + shift`
 -   Access to `€` using `option + shift + $`
--   Access to `º` using `option 0`
+-   Access to `º` using `option + 0`
 
 
 
