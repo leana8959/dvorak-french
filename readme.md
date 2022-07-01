@@ -2,7 +2,7 @@
 
 Dvorak-French (abbreviated as DvFr) is a custom made keyboard layout, based on dvorak and some ideas from Bépo.
 
-DvFr uses the exact same alphabetical layout, but switches out the number row in favor for accents used in the French language.
+DvFr uses the exact same alphabetical layout as Dvorak, but switches out the number row in favor for accents used in the French language.
 
 This layout is generated using [ukelele](https://software.sil.org/ukelele/) from SIL.
 
