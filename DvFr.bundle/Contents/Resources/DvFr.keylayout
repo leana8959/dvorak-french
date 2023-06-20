@@ -60,7 +60,7 @@
             <key code="19" output="è"/>
             <key code="20" output="é"/>
             <key code="21" output="·"/>
-            <key code="22" action="Dead Key State 0"/>
+            <key code="22" action="circ"/>
             <key code="23" output="œ"/>
             <key code="24" output="]"/>
             <key code="25" output="à"/>
@@ -166,7 +166,7 @@
             <key code="19" output="@"/>
             <key code="20" output="#"/>
             <key code="21" output="$"/>
-            <key code="22" action="Dead Key State 1"/>
+            <key code="22" action="trem"/>
             <key code="23" output="%"/>
             <key code="24" output="}"/>
             <key code="25" output="("/>
@@ -804,65 +804,65 @@
         </keyMap>
     </keyMapSet>
     <actions>
-        <action id="Dead Key State 0">
-            <when state="none" next="Dead Key State 0"/>
+        <action id="circ">
+            <when state="none" next="circ"/>
         </action>
-        <action id="Dead Key State 1">
-            <when state="none" next="Dead Key State 1"/>
+        <action id="trem">
+            <when state="none" next="trem"/>
         </action>
         <action id="A">
             <when state="none" output="A"/>
-            <when state="Dead Key State 0" output="Â"/>
-            <when state="Dead Key State 1" output="Ä"/>
+            <when state="circ" output="Â"/>
+            <when state="trem" output="Ä"/>
         </action>
         <action id="E">
             <when state="none" output="E"/>
-            <when state="Dead Key State 0" output="Ê"/>
-            <when state="Dead Key State 1" output="Ë"/>
+            <when state="circ" output="Ê"/>
+            <when state="trem" output="Ë"/>
         </action>
         <action id="I">
             <when state="none" output="I"/>
-            <when state="Dead Key State 0" output="Î"/>
-            <when state="Dead Key State 1" output="Ï"/>
+            <when state="circ" output="Î"/>
+            <when state="trem" output="Ï"/>
         </action>
         <action id="O">
             <when state="none" output="O"/>
-            <when state="Dead Key State 0" output="Ô"/>
-            <when state="Dead Key State 1" output="Ö"/>
+            <when state="circ" output="Ô"/>
+            <when state="trem" output="Ö"/>
         </action>
         <action id="U">
             <when state="none" output="U"/>
-            <when state="Dead Key State 0" output="Û"/>
-            <when state="Dead Key State 1" output="Ü"/>
+            <when state="circ" output="Û"/>
+            <when state="trem" output="Ü"/>
         </action>
         <action id="a">
             <when state="none" output="a"/>
-            <when state="Dead Key State 0" output="â"/>
-            <when state="Dead Key State 1" output="ä"/>
+            <when state="circ" output="â"/>
+            <when state="trem" output="ä"/>
         </action>
         <action id="e">
             <when state="none" output="e"/>
-            <when state="Dead Key State 0" output="ê"/>
-            <when state="Dead Key State 1" output="ë"/>
+            <when state="circ" output="ê"/>
+            <when state="trem" output="ë"/>
         </action>
         <action id="i">
             <when state="none" output="i"/>
-            <when state="Dead Key State 0" output="î"/>
-            <when state="Dead Key State 1" output="ï"/>
+            <when state="circ" output="î"/>
+            <when state="trem" output="ï"/>
         </action>
         <action id="o">
             <when state="none" output="o"/>
-            <when state="Dead Key State 0" output="ô"/>
-            <when state="Dead Key State 1" output="ö"/>
+            <when state="circ" output="ô"/>
+            <when state="trem" output="ö"/>
         </action>
         <action id="u">
             <when state="none" output="u"/>
-            <when state="Dead Key State 0" output="û"/>
-            <when state="Dead Key State 1" output="ü"/>
+            <when state="circ" output="û"/>
+            <when state="trem" output="ü"/>
         </action>
     </actions>
     <terminators>
-        <when state="Dead Key State 0" output=""/>
-        <when state="Dead Key State 1" output="^"/>
+        <when state="circ" output=""/>
+        <when state="trem" output="^"/>
     </terminators>
 </keyboard>
