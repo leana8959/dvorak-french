@@ -38,6 +38,7 @@
     </modifierMap>
     <keyMapSet id="ANSI">
         <keyMap index="0">
+            <!-- no modifiers -->
             <key code="0" action="a"/>
             <key code="1" action="o"/>
             <key code="2" action="e"/>
@@ -144,6 +145,7 @@
             <key code="126" output="&#x001E;"/>
         </keyMap>
         <keyMap index="1">
+            <!-- anyShift -->
             <key code="0" action="A"/>
             <key code="1" action="O"/>
             <key code="2" action="E"/>
@@ -250,6 +252,7 @@
             <key code="126" output="&#x001E;"/>
         </keyMap>
         <keyMap index="2">
+            <!-- anyOption -->
             <key code="0" output=""/>
             <key code="1" output=""/>
             <key code="2" output=""/>
@@ -356,6 +359,7 @@
             <key code="126" output="&#x001E;"/>
         </keyMap>
         <keyMap index="3">
+            <!-- anyShift caps? anyOption -->
             <key code="0" output=""/>
             <key code="1" output=""/>
             <key code="2" output=""/>
@@ -462,6 +466,7 @@
             <key code="126" output="&#x001E;"/>
         </keyMap>
         <keyMap index="4">
+            <!-- command -->
             <key code="0" output="a"/>
             <key code="1" output="o"/>
             <key code="2" output="e"/>
@@ -568,6 +573,7 @@
             <key code="126" output="&#x001E;"/>
         </keyMap>
         <keyMap index="5">
+            <!-- caps -->
             <key code="0" output="a"/>
             <key code="1" output="o"/>
             <key code="2" output="e"/>
@@ -674,6 +680,7 @@
             <key code="126" output="&#x001E;"/>
         </keyMap>
         <keyMap index="6">
+            <!-- anyControl -->
             <key code="0" output="A"/>
             <key code="1" output="O"/>
             <key code="2" output="E"/>
