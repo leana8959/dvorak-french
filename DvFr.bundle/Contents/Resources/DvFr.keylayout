@@ -61,11 +61,11 @@
             <key code="19" output="è"/>
             <key code="20" output="é"/>
             <key code="21" output="·"/>
-            <key code="22" action="circ"/>
+            <key code="22" action="trem"/>
             <key code="23" output="œ"/>
             <key code="24" output="]"/>
             <key code="25" output="à"/>
-            <key code="26" output=""/>
+            <key code="26" action="circ"/>
             <key code="27" output="["/>
             <key code="28" output="ç"/>
             <key code="29" output="ù"/>
@@ -168,7 +168,7 @@
             <key code="19" output="@"/>
             <key code="20" output="#"/>
             <key code="21" output="$"/>
-            <key code="22" action="trem"/>
+            <key code="22" output="^"/>
             <key code="23" output="%"/>
             <key code="24" output="}"/>
             <key code="25" output="("/>
@@ -811,12 +811,14 @@
         </keyMap>
     </keyMapSet>
     <actions>
+        <!-- dead keys -->
         <action id="circ">
             <when state="none" next="circ"/>
         </action>
         <action id="trem">
             <when state="none" next="trem"/>
         </action>
+        <!-- dead vowels -->
         <action id="A">
             <when state="none" output="A"/>
             <when state="circ" output="Â"/>
@@ -870,6 +872,6 @@
     </actions>
     <terminators>
         <when state="circ" output=""/>
-        <when state="trem" output="^"/>
+        <when state="trem" output=""/>
     </terminators>
 </keyboard>
